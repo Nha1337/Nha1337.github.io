@@ -142,35 +142,35 @@
     align-items: center;
 }
 
-/* #### NINTENDO PAGE #### */
-.nintendo{
+/* #### cmd PAGE #### */
+.cmd{
     padding: 5rem 0 2.5rem 0;
 }
-.nintendo .row-right{
+.cmd .row-right{
     padding: 3rem 0;
 }
-.nintendo .row-right p{
+.cmd .row-right p{
     margin: 1rem 0;
 }
-.nintendo-content{
+.cmd-content{
     margin: 1.5rem 0;
 }
-.nintendo-content li{
+.cmd-content li{
     display: flex;
     margin: 0.6rem 0;
 }
-.nintendo-content li span{
+.cmd-content li span{
     flex: 1;
 }
-.nintendo-content li span:first-child{
+.cmd-content li span:first-child{
     color: #fff;
     font-weight: 600;
 }
-.nintendo .row-right h3{
+.cmd .row-right h3{
     color: var(--green);
     font-size: 1.5rem;
 }
-.nintendo .row-right h3 span{
+.cmd .row-right h3 span{
     color: #fff;
     font-weight: 400;
 }
@@ -518,8 +518,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    /* nintendo page */
-    .nintendo .row-left{
+    /* cmd page */
+    .cmd .row-left{
         width: 400px;
         height: 400px;
         margin: 1rem auto;
@@ -616,8 +616,8 @@
         transform: translateY(-14px);
     }
 
-    /* nintendo page */
-    .nintendo .row{
+    /* cmd page */
+    .cmd .row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
